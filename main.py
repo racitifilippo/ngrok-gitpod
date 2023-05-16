@@ -9,7 +9,6 @@ class MySite(object):
         cherrypy.response.headers['Access-Control-Allow-Origin'] = '*'
         cherrypy.response.headers['Access-Control-Allow-Headers'] = 'ngrok-skip-browser-warning'    
         #cherrypy.response.headers['Access-Control-Allow-Methods']=  "POST, GET, PUT, DELETE, OPTIONS"
-        #cherrypy.response.headers['Access-Control-Allow-Credentials']=  "true"
         return {'x':'ciao'}
     
     @cherrypy.expose    
